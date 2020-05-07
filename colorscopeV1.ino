@@ -16,7 +16,7 @@ const uint8_t PM_RED = A0;
 const uint8_t PM_GREEN = A1;
 const uint8_t PM_BLUE = A2;
 // Параметры для RGB-ленты
-const uint8_t LED_PIN = 13;     // выходной пин, управляющий лентой (должен поддерживать ШИМ)
+const uint8_t LED_PIN = 3;     // выходной пин, управляющий лентой (должен поддерживать ШИМ)
 const uint8_t LED_QUAN = 16;  // сколько светодиодов в ленте?
 const uint8_t BRIGHTNESS = 255; // яркость, 255 - максимальная
 // Интевал опроса потенциометров
