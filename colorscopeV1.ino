@@ -2,7 +2,7 @@
   DIY фазово-контрастный осветитель для микроскопа
   
   Скетч позволяет управлять цветом светодиодной ленты с трех потенциометров.
-  Код работает на Arduino UNO с лентой WS2811, но легко меняется, чтобы
+  Код работает на Arduino UNO с лентой WS2812, но легко меняется, чтобы
   работать с другими комбинациями железа.
   Используется библиотека NeoPixel от Adafruit.
   
@@ -29,7 +29,7 @@ uint32_t current_color;
 uint32_t last_time;
 
 // Обьект NeoPixel для управления лентой
-Adafruit_NeoPixel led_strip = Adafruit_NeoPixel(LED_QUAN, LED_PIN, NEO_GRB + NEO_KHZ400);  // WS2811
+Adafruit_NeoPixel led_strip = Adafruit_NeoPixel(LED_QUAN, LED_PIN, NEO_GRB + NEO_KHZ800);  // WS2812
 
 void setup() {
     // Инициализируем пины
